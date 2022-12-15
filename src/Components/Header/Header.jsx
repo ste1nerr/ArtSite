@@ -4,7 +4,6 @@ const Header = () => {
     return (
         <div>
             <div className='container'>
-
                 <ul className={HeaderCSS.header_list}>
                     <img className={HeaderCSS.header_logo} src="../images/logotype.png" alt="" />
                     <nav className={HeaderCSS.navigation_menu}>

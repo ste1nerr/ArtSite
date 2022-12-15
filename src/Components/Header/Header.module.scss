@@ -1,7 +1,4 @@
 
-p{
-
-}
 
 .header_logo{
     width: 10%;
@@ -43,9 +40,16 @@ p{
     font-size: 18px;
 }
 
+<<<<<<< Updated upstream
 @media screen and (max-width: 770px){
     .navigation_menu{
         flex-direction: column;
+=======
+@media screen and (max-width: 500px){
+    .navigation_menu {
+        flex-direction: column;
+        height: auto;
+>>>>>>> Stashed changes
     }
     .header_list {
         flex-direction: column;
