@@ -25,3 +25,15 @@ li {
     padding: 1rem;
 }
 
+.first_container{
+    background-image: url("../public/images/back.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "aresmile";   /*Can be any text*/
+    src: local("Aareminiscentsmile-Regular"),
+      url("../public/fonts/areminiscentsmile-Regular.ttf") format("truetype");
+  }
