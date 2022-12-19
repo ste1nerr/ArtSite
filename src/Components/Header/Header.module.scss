@@ -1,9 +1,8 @@
-
-
-.header_logo{
+.header_logo {
     width: 10%;
     height: 10%;
 }
+
 .header_list {
     list-style-type: none;
     height: 100%;
@@ -12,7 +11,8 @@
     align-items: center;
     position: relative;
 }
-.navigation_menu{
+
+.navigation_menu {
     list-style-type: none;
     gap: 5rem;
     height: 100%;
@@ -21,6 +21,7 @@
     align-items: center;
     position: relative;
 }
+
 .item {
     margin-right: 20px;
     font-size: 16px;
@@ -40,41 +41,46 @@
     font-size: 18px;
 }
 
-<<<<<<< Updated upstream
-@media screen and (max-width: 770px){
-    .navigation_menu{
-        flex-direction: column;
-=======
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 770px) {
     .navigation_menu {
         flex-direction: column;
-        height: auto;
->>>>>>> Stashed changes
-    }
-    .header_list {
-        flex-direction: column;
-        height: auto;
-    }
-    .item:nth-child(1){
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
-        margin-top: 50px;
-    }
-    .item {
-        font-size: 26px;
-        width: 100%;
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
-        text-align: center;
-        margin-right: 0px;
-        padding: 20px 0;
-    }
-    .btn {
-        display: block;
-    }
-  }
 
-  @media screen and (max-width: 940px){
-    .navigation_menu{
-        gap: 2rem;
+        @media screen and (max-width: 500px) {
+            .navigation_menu {
+                flex-direction: column;
+                height: auto;
+
+            }
+
+            .header_list {
+                flex-direction: column;
+                height: auto;
+            }
+
+            .item:nth-child(1) {
+                border-top: 1px solid rgba(255, 255, 255, 0.555);
+                margin-top: 50px;
+            }
+
+            .item {
+                font-size: 26px;
+                width: 100%;
+                border-top: 1px solid rgba(255, 255, 255, 0.555);
+                text-align: center;
+                margin-right: 0px;
+                padding: 20px 0;
+            }
+
+            .btn {
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 940px) {
+            .navigation_menu {
+                gap: 2rem;
+            }
+        }
     }
-  }
-  
+}
